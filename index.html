@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pete's Pizza Delivery</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="t-center mb-20">Pete's Pizza Delivery</h1>
+      <h3 class="t-center mb-30">Online Delivery Form</h3>
+
+      <form action="">
+        <div class="infosect d-flex">
+
+          <section class="info1 d-flex">
+            <div class="name">
+              <label for="name">*Name</label>
+              <label for="address">*Address</label>
+              <label for="town">*Town/City</label>
+              <label for="code">*Postcode</label>
+            </div>
+
+            <div class="inputarea">
+              <input class="in" type="text" id="name" name="Name" required>
+              <input class="in"  type="text" id="address" name="Address" required>
+              <input class="in"  type="text" id="town" name="Town" required>
+              <input class="in" type="text" id="code" name="Postcode" required>
+            </div>
+          </section>
+
+          <section class="info2 d-flex">
+            <div class="names">
+              <label for="tel">*Tel</label>
+              <label for="email">*Email</label>
+            </div>
+
+            <div class="inputarea">
+              <input class="in1"  type="text" id="tel" name="Tel" required>
+              <input class="in1"  type="email" id="email" name="Email" required>
+            </div>
+          </section>
+
+        </div>
+
+        <p class="t-center mt-20 mb-30">* required</p>
+
+        <div class="choice d-flex">
+
+          <section class="topping">
+            <p class="mb-20"><b>Topping</b></p>
+            <label for=""><input type="radio" name="top">Margherita</label>
+            <label for=""><input type="radio" name="top">Four Seasons</label>
+            <label for=""><input type="radio" name="top">Meat Feast</label>
+          </section>
+
+          <section class="size">
+            <p class="mb-20"><b>Size</b></p>
+            <label for=""><input type="radio" name="size">Small</label>
+            <label for=""><input type="radio" name="size">Medium</label>
+            <label for=""><input type="radio" name="size">Large</label>
+          </section>
+
+          <section class="extra">
+            <p class="mb-20"><b>Extra</b></p>
+            <label for=""><input type="checkbox">Mushrooms</label>
+            <label for=""><input type="checkbox">Green Peppers</label>
+            <label for=""><input type="checkbox">Anchovies</label>
+            <label for=""><input type="checkbox">Extra Cheese</label>
+          </section>
+
+        </div>
+
+        <div class="delivery d-flex">
+
+          <section class="time">
+            <label for="preferred">Prefered delivery time:</label>
+            <label for="preferred">Delivery instrutions:</label>
+          </section>
+
+          <section class="t-area">
+            <input class="d-block" type="time">
+            <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+          <section>
+            
+        </div>
+
+        <div class="btn t-center"><button type="submit">Submit Order</button></div>
+      </form>
+    
+    </div>
+  </body>
+</html>

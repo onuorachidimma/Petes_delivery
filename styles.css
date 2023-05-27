@@ -1,0 +1,132 @@
+/* body{
+  padding: 0;
+  margin: 0;
+}
+h3, p{
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.choice, .infosect{
+  display: flex 
+}
+
+.choice div, .infosect div{
+  display: flex;
+  flex-direction: column;  
+}
+
+.infosect div{
+  margin-bottom: 2px;
+}
+
+
+textarea{
+  margin-left: 15px;
+  height: 80px;
+}
+
+input[type=time]{
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+ */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.t-center{
+  text-align: center;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.container{
+  margin: auto;
+  width: 50%;
+  background-color: red;
+}
+
+.info1 label, .info2 label{
+  display: block;
+}
+
+.info1 input, .info2 input{
+  display: block;
+}
+
+.info1{
+  width: 48%;
+}
+
+
+.infosect{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.choice label{
+  display: block;
+}
+
+.choice{
+  justify-content: space-between;
+  margin: auto;
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+.time label{
+  display: block;
+}
+
+.time{
+  width: 50%;
+  
+}
+.t-area{
+  width: 50%;
+}
+
+textarea{
+  width: 150px;
+}
+
+.delivery{
+justify-content:;
+margin: auto;
+width: 60%;
+}
+
+.btn{
+  margin-top: 15px;
+}
