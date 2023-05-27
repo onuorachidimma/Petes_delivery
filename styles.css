@@ -137,3 +137,7 @@ input, textarea{
   border: 2px solid #d4d1d6;
   border-radius: 2px;
 }
+
+.name label::before, .req::before, .names label::before{
+  content: "*";
+}
